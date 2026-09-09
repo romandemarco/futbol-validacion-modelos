@@ -68,17 +68,16 @@ como filtro rápido para descartar sin gastar las etapas siguientes.
 ## Estructura
 
 ```
-R/
-├── api_client.R          Cliente HTTP con manejo de errores y rate limiting
-├── data_pipeline.R       Descarga, caché incremental y normalización
-├── math_core.R           Motor: λ, shrinkage, ajuste por rival, distribuciones
-├── market_registry.R     Definición declarativa de cada mercado
-├── modelo_principal.R    Predicción de un partido concreto
-├── backtests.R           Validación walk-forward y métricas
-├── diagnostico_senal.R   Etapa 1 del protocolo
-├── utils.R               Utilidades
-├── main.R                Orquestador
-└── config_ejemplo.R      Plantilla de configuración
+api_client.R          Cliente HTTP con manejo de errores y rate limiting
+data_pipeline.R       Descarga, caché incremental y normalización
+math_core.R           Motor: λ, shrinkage, ajuste por rival, distribuciones
+market_registry.R     Definición declarativa de cada mercado
+modelo_principal.R    Predicción de un partido concreto
+backtests.R           Validación walk-forward y métricas
+diagnostico_senal.R   Etapa 1 del protocolo
+utils.R               Utilidades
+main.R                Orquestador
+config_ejemplo.R      Plantilla de configuración
 ```
 
 ---
